@@ -9,8 +9,10 @@ Este projeto automatiza a criação de Dashboards executivos, extraindo dados de
 - **Análise Multidimensional:** Slides focados em Status de Portfólio, Composição por Tipo e Análise Geográfica/Bandeira.
 
 ## 📸 Screenshots
-![Formulário](img/print_do_formulario.png)
-![Dashboard Gerado](img/print_do_dashboard.png)
+![Formulário](<img width="1917" height="1011" alt="image" src="https://github.com/user-attachments/assets/5b96f7a5-2c9d-4e48-8780-6c576bba9656" />
+)
+![Dashboard Gerado](<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/ba066f2d-019c-4b5e-916e-54ac0d8d3418" />
+)
 
 ## 🛠️ Como usar
 1. Baixe o arquivo na pasta `/template`.
