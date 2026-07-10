@@ -43,7 +43,7 @@ A apresentação criada inclui indicadores como:
 
 > Substitua o link abaixo pela imagem da interface.
 
-![Interface do Sistema](COLE_AQUI_O_LINK_DA_IMAGEM)
+![Interface do Sistema]()
 
 ---
 
@@ -51,7 +51,7 @@ A apresentação criada inclui indicadores como:
 
 > Substitua o link abaixo pela imagem do dashboard.
 
-![Dashboard Executivo](<img width="1919" height="956" alt="Dashboard no PowerPoint 1" src="https://github.com/user-attachments/assets/7e978dc0-a259-46b5-8b2b-0a9db97a2768" />
+![Dashboard Executivo](<img width="1919" height="956" alt="Dashboard no PowerPoint 1" src="https://github.com/user-attachments/assets/60bc2cd9-0f17-4b96-bf4e-2e7a99d2e2b6" />
 )
 
 ---
