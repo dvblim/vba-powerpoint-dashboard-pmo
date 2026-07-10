@@ -67,17 +67,15 @@ Todo o relatório é criado com apenas um clique, reduzindo drasticamente o temp
 
 ### Executive Report
 
-> *(adicione aqui o print do primeiro slide)*
+<img width="1919" height="956" alt="Dashboard no PowerPoint 1" src="https://github.com/user-attachments/assets/43a9194c-e4c1-420d-b362-effc6897c1fc" />
 
-![Dashboard](images/dashboard-status.png)
 
 ---
 
 ### Análise Regional
 
-> *(adicione aqui o print do segundo slide)*
+<img width="1919" height="954" alt="Dashboard no PowerPoint 2" src="https://github.com/user-attachments/assets/b133f9a2-85b5-4f38-83d2-9dac3a6add2f" />
 
-![Dashboard Regional](images/dashboard-regional.png)
 
 ---
 
