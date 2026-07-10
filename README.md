@@ -209,7 +209,3 @@ Além da redução do tempo de elaboração dos relatórios, o projeto garante p
 # 👨‍💻 Autor
 
 **Davi Lima**
-
-Analista de Planejamento e Expansão | PMO
-
-Especializado em automação de processos com Excel VBA, Power BI e soluções para gerenciamento de projetos.
