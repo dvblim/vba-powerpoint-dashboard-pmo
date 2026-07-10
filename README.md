@@ -58,7 +58,7 @@ Todo o relatório é criado com apenas um clique, reduzindo drasticamente o temp
 
 ### Painel de geração
 
-> *(<img width="1919" height="833" alt="image" src="https://github.com/user-attachments/assets/048685de-856e-4c4e-816b-fad4a1d82987" />)*
+<img width="1919" height="833" alt="image" src="https://github.com/user-attachments/assets/048685de-856e-4c4e-816b-fad4a1d82987" />
 
 
 ---
