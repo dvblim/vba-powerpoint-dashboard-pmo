@@ -1,107 +1,218 @@
-# 📊 Gerador de Relatórios Executivos PMO (VBA + PowerPoint)
+# 📊 PMO Executive Report Generator
 
-Automatize a geração de apresentações executivas em PowerPoint diretamente a partir do Excel.
+> Automação em Excel VBA para geração de Dashboards Executivos no PowerPoint.
 
-Este projeto utiliza **Excel VBA** para extrair informações de uma tabela de projetos e criar automaticamente dashboards executivos em PowerPoint, eliminando tarefas manuais e garantindo padronização visual dos relatórios.
-
----
-
-## 🚀 Principais Funcionalidades
-
-* Interface intuitiva através de um **UserForm** personalizado.
-* Geração automática de apresentações em PowerPoint com apenas um clique.
-* Filtros dinâmicos por período:
-
-  * Últimos 30 dias
-  * Últimos 60 dias
-  * Últimos 90 dias
-  * Pipeline completo
-* Dashboards executivos com layout profissional.
-* Gráficos e tabelas formatados automaticamente.
-* Visual limpo (Clean Design), inspirado em apresentações corporativas.
-* Análises multidimensionais do portfólio de projetos.
+![Excel VBA](https://img.shields.io/badge/Excel-VBA-217346?logo=microsoftexcel&logoColor=white)
+![PowerPoint](https://img.shields.io/badge/PowerPoint-Automation-B7472A?logo=microsoftpowerpoint&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
 
 ---
 
-## 📊 Dashboards Gerados
+## 📖 Sobre o projeto
 
-A apresentação criada inclui indicadores como:
+O **PMO Executive Report Generator** é uma solução desenvolvida em **Excel VBA** para automatizar a criação de apresentações executivas em PowerPoint.
 
-* Status do Portfólio
-* Projetos por Tipo
-* Distribuição por Bandeira
-* Distribuição Geográfica
-* Pipeline de Inaugurações
-* Indicadores Executivos
-* Resumo Geral do Portfólio
+O sistema lê os dados de uma tabela estruturada do Excel (`tbProjetos`), realiza o processamento das informações e gera automaticamente dashboards profissionais para acompanhamento do portfólio de projetos.
+
+Todo o relatório é criado com apenas um clique, reduzindo drasticamente o tempo gasto na preparação manual de apresentações para reuniões executivas.
 
 ---
 
-## 📸 Screenshots
+# ✨ Principais funcionalidades
 
-### Interface do Sistema
+✔ Interface amigável (UserForm)
 
-> Substitua o link abaixo pela imagem da interface.
+✔ Geração automática de apresentações em PowerPoint
 
-![Interface do Sistema]()
+✔ Filtros dinâmicos por período
+
+- Pipeline Completo
+- Próximos 30 dias
+- Próximos 60 dias
+- Próximos 90 dias
+
+✔ Seleção dos slides que serão gerados
+
+- Sumário Executivo
+- Análise Regional
+
+✔ Dashboard executivo
+
+- Portfólio Ativo
+- Projetos em andamento
+- Projetos concluídos
+
+✔ Pipeline de inaugurações por mês
+
+✔ Distribuição por tipo de projeto
+
+✔ Distribuição geográfica por estado
+
+✔ Distribuição por bandeira
+
+✔ Layout corporativo inspirado em apresentações executivas (McKinsey/Bain)
 
 ---
 
-### Dashboard Gerado
+# 🖥 Interface
 
-> Substitua o link abaixo pela imagem do dashboard.
+### Painel de geração
 
-![Dashboard Executivo](<img width="1919" height="956" alt="Dashboard no PowerPoint 1" src="https://github.com/user-attachments/assets/60bc2cd9-0f17-4b96-bf4e-2e7a99d2e2b6" />
-)
+> *(adicione aqui a imagem do UserForm)*
+
+![Painel](images/painel.png)
 
 ---
 
-## 🛠️ Como Utilizar
+# 📊 Dashboard Gerado
 
-1. Faça o download do projeto.
-2. Abra o arquivo Excel habilitado para macros (.xlsm).
-3. Certifique-se de que a tabela principal possui o nome:
+### Executive Report
+
+> *(adicione aqui o print do primeiro slide)*
+
+![Dashboard](images/dashboard-status.png)
+
+---
+
+### Análise Regional
+
+> *(adicione aqui o print do segundo slide)*
+
+![Dashboard Regional](images/dashboard-regional.png)
+
+---
+
+# ⚙ Como funciona
+
+O fluxo da aplicação é simples.
+
+```text
+Tabela tbProjetos
+        │
+        ▼
+Leitura dos dados
+        │
+        ▼
+Aplicação dos filtros
+        │
+        ▼
+Processamento dos indicadores
+        │
+        ▼
+Criação automática dos slides
+        │
+        ▼
+PowerPoint aberto com relatório pronto
+```
+
+---
+
+# 📋 Estrutura da tabela
+
+O projeto utiliza uma tabela estruturada do Excel chamada:
 
 ```text
 tbProjetos
 ```
 
-4. Abra o UserForm pelo botão disponível na planilha.
-5. Escolha o período desejado.
-6. Clique em **Gerar Relatório**.
-7. O PowerPoint será aberto automaticamente com todos os slides criados.
+Principais colunas utilizadas:
+
+| Campo |
+|-------|
+| Projeto |
+| Bandeira |
+| Cidade |
+| Estado |
+| Início Obras |
+| Término Obras |
+| Inauguração |
 
 ---
 
-## 💻 Tecnologias Utilizadas
+# 📈 Indicadores gerados
 
-* Microsoft Excel VBA
-* Microsoft PowerPoint Object Library
-* Tabelas Estruturadas (ListObjects)
-* Gráficos Dinâmicos
-* Automação Office (COM)
+O relatório apresenta automaticamente:
 
----
-
-## 🎯 Objetivo
-
-Reduzir o tempo gasto na elaboração de apresentações executivas para equipes de PMO, Planejamento e Expansão, transformando dados do Excel em dashboards profissionais de forma totalmente automatizada.
+- Total do Portfólio
+- Projetos em andamento
+- Projetos concluídos
+- Pipeline mensal
+- Distribuição por tipo
+- Distribuição por estado
+- Distribuição por bandeira
 
 ---
 
-## 📂 Estrutura do Projeto
+# 💻 Tecnologias utilizadas
 
-```text
-📁 Projeto
- ├── template/
- ├── módulos VBA/
- ├── UserForms/
- ├── PowerPoint Template/
- └── README.md
+- Microsoft Excel
+- VBA
+- PowerPoint Object Library
+- ListObjects
+- Dictionaries (Scripting.Dictionary)
+- COM Automation
+
+---
+
+# 📁 Estrutura do projeto
+
+```
+Projeto
+│
+├── Projeto_VBA_PMO.xlsm
+├── GeradorDashboard.bas
+├── frmGerador.frm
+├── frmGerador.frx
+├── images
+│   ├── painel.png
+│   ├── dashboard-status.png
+│   └── dashboard-regional.png
+└── README.md
 ```
 
 ---
 
-## 📄 Licença
+# 🚀 Como executar
 
-Este projeto foi desenvolvido para fins de estudo, automação de processos e demonstração de habilidades em VBA, Excel e PowerPoint.
+1. Abra o arquivo **Projeto_VBA_PMO.xlsm**
+
+2. Habilite as macros.
+
+3. Certifique-se de que a tabela possui o nome:
+
+```
+tbProjetos
+```
+
+4. Clique no botão **Painel de Relatório**.
+
+5. Escolha:
+
+- período do pipeline;
+- slides desejados.
+
+6. Clique em:
+
+```
+GERAR RELATÓRIO NO POWERPOINT
+```
+
+O PowerPoint será aberto automaticamente contendo o relatório executivo.
+
+---
+
+# 🎯 Objetivo
+
+Este projeto foi desenvolvido para demonstrar a utilização do VBA na automação de processos corporativos, aplicando conceitos de PMO, Business Intelligence e automação do Microsoft Office.
+
+Além da redução do tempo de elaboração dos relatórios, o projeto garante padronização visual e elimina tarefas repetitivas.
+
+---
+
+# 👨‍💻 Autor
+
+**Davi Lima**
+
+Analista de Planejamento e Expansão | PMO
+
+Especializado em automação de processos com Excel VBA, Power BI e soluções para gerenciamento de projetos.
